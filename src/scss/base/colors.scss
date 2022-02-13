@@ -1,0 +1,27 @@
+:root {
+  --primary: hsl(163, 72%, 41%);
+  --secondary: hsl(210, 78%, 56%);
+
+  //grey
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(227, 47%, 96%);
+  --grey-200: hsl(228, 33%, 91%);
+  --grey-300: hsl(228, 12%, 44%);
+  --grey-400: hsl(230, 17%, 14%);
+
+  //social media colors
+  --facebook: hsl(208, 92%, 53%);
+  --twitter: hsl(203, 89%, 53%);
+  --instagram-start: hsl(326, 57%, 48%)
+  --youtube: hsl(348, 97%, 39%);
+}
+
+h1,h2,p{
+  color: var(--grey-200);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+body{
+  background-color: var(--grey-400);
+}

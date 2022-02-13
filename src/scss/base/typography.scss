@@ -1,0 +1,20 @@
+// FONT USED
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+body {
+  font-family: var(--font-inter);
+}
